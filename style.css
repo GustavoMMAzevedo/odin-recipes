@@ -11,6 +11,11 @@ ul {
     list-style: none;
 }
 
+ul img {
+    width: 200px;
+    height: auto;
+}
+
 h1 {
     color: darkolivegreen;
 }
