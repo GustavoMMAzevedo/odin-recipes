@@ -5,10 +5,12 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: beige;
+    text-align: center;
 }
 
 ul {
     list-style: none;
+    text-align: center;
 }
 
 ul img {
@@ -16,6 +18,23 @@ ul img {
     height: auto;
 }
 
+a {
+    text-transform: uppercase;
+    background-color: rgb(211, 239, 211);
+    color: black;
+    text-decoration: none;
+    border: 1px solid green ;
+}
+
 h1 {
     color: darkolivegreen;
+}
+
+.container {
+    border: 2px solid rgb(0, 11, 8);
+}
+
+.recipes-card {
+    border: 1px solid green;
+    background-color: rgb(212, 212, 180);
 }
