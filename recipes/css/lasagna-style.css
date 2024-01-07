@@ -20,3 +20,27 @@ h1 {
     text-transform: uppercase;
 }
 
+h2,
+h3 {
+    text-decoration: underline;
+}
+
+ol li {
+    line-height: 2.0;
+}
+
+.recipe-card {
+    width: 800px;
+    background-color: rgb(148, 71, 71);
+    text-align: center;
+}
+
+.recipe-content {
+    text-align: left;
+    color: burlywood;
+    font-size: 20px;
+}
+
+.recipe-card.feature {
+    border: 6px solid burlywood;
+}
