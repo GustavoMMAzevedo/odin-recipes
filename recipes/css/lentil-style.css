@@ -15,3 +15,21 @@ h1 {
     color: yellowgreen;
 }
 
+h2,
+h3 {
+    text-decoration: underline;
+}
+
+.recipe-card {
+    width: 800px;
+    background-color: beige;
+    text-align: center;
+    border: 6px solid yellowgreen;
+}
+
+.recipe-content {
+    text-align: left;
+}
+
+
+
