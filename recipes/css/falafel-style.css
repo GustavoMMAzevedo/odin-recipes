@@ -1,0 +1,38 @@
+* {
+    line-height: 1.5;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+img {
+    width: 300px;
+    height: auto;
+    border: 7px solid rgb(109, 171, 236);
+}
+
+ul {
+    list-style: none;
+}
+
+h1 {
+    color: rgb(74, 74, 192);
+    text-transform: uppercase;
+}
+
+h2,
+h3 {
+    text-decoration:underline;
+    background-color: ;
+}
+
+.recipe-card {
+    width: 800px;
+    background-color: lightblue;
+    text-align: center;
+}
+
+.recipe-content {
+    text-align: left;
+}
