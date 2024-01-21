@@ -45,6 +45,12 @@ h3:hover {
     background-color: lightblue;
     text-align: center;
     margin: 20px auto;
+    border: 2px dotted #FC5185;
+    transition: border-width 0.6s linear;
+}
+
+.recipe-card:hover {
+    border-width: 6px;
 }
 
 .recipe-content {
