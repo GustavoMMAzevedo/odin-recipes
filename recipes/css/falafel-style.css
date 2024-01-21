@@ -1,5 +1,6 @@
 * {
     line-height: 1.5;
+    box-sizing: border-box;
 }
 
 body {
@@ -24,7 +25,19 @@ h1 {
 h2,
 h3 {
     text-decoration:underline;
-    background-color: ;
+    background-color: rgb(11, 102, 132);
+    color: aliceblue;
+    padding: 8px;
+    margin: 1px;
+    display: inline-flex;
+    border: 2px solid #FC5185;
+    transition: border-width 0.6s linear;
+}
+
+h2:hover,
+h3:hover {
+    border-width: 10px;
+
 }
 
 .recipe-card {
@@ -35,4 +48,5 @@ h3 {
 
 .recipe-content {
     text-align: left;
+    padding: 8px;
 }
