@@ -1,5 +1,6 @@
 * {
     line-height: 1.5;
+    box-sizing: border-box;
 }
 
 body {
@@ -7,9 +8,11 @@ body {
     background-color: beige;
 }
 
-ul {
+ .container .recipes-card ul {
     list-style: none;
+    padding: 0;
 }
+
 
 ul img {
     width: 200px;
@@ -32,7 +35,6 @@ a:hover {
 
 h1 {
     color: darkolivegreen;
-    border: 1px solid;
 }
 
 .container {
